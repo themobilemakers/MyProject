@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSString *viksString = @"Objective C is cool!";
+    NSLog(@"%@",viksString);
 }
 
 - (void)didReceiveMemoryWarning {
